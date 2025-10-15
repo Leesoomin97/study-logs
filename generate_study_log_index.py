@@ -18,7 +18,7 @@ FOLDER_HEADER = {
 }
 
 # 자동으로 인덱스를 생성할 폴더들
-TARGET_DIRS = ["study-logs"]
+TARGET_DIRS = ["."]
 
 
 def generate_index(folder):
