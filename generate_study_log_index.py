@@ -1,4 +1,3 @@
-# generate_study_log_index.py
 import os
 import subprocess
 from datetime import datetime
@@ -18,7 +17,7 @@ FOLDER_HEADER = {
 }
 
 # 자동으로 인덱스를 생성할 폴더들
-TARGET_DIRS = ["."]
+TARGET_DIRS = ["."]  # study-logs 루트만 인덱싱
 
 
 def generate_index(folder):
@@ -43,8 +42,13 @@ def generate_index(folder):
             date = datetime.today().strftime("%Y-%m-%d")
             title = name.replace("_", " ")
 
-        # ✅ 상대경로 수정
-        file_path = os.path.join(folder, f).replace("\\", "/")
+        # ✅ 링크 경로 처리 (루트와 하위 폴더 구분)
+        if folder == ".":
+            file_path = f"./{f}"
+        else:
+            file_path = f"./{folder}/{f}"
+        file_path = file_path.replace("\\", "/")
+
         rows.append(f"| {date} | {title} | [보기]({file_path}) |")
 
     # 상단 설명문 가져오기
@@ -73,6 +77,6 @@ if __name__ == "__main__":
             print(f"⚠️ {folder} 폴더가 존재하지 않습니다.")
 
     # 모든 변경사항 자동 푸시
-    subprocess.run(["git", "add", "."])
+    subprocess.run(["git", "add", "."], check=False)
     subprocess.run(["git", "commit", "-m", "Auto-update README index"], check=False)
     subprocess.run(["git", "push", "origin", "main"], check=False)
