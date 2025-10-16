@@ -1,6 +1,7 @@
 import os
 import subprocess
 from datetime import datetime
+from urllib.parse import quote
 
 FOLDER_HEADER = {
     ".": (
@@ -10,11 +11,9 @@ FOLDER_HEADER = {
     )
 }
 
-TARGET_DIRS = ["."]  # 루트 폴더만 갱신
-
+TARGET_DIRS = ["."]
 
 def generate_index(folder):
-    """루트 폴더 내 .md 파일을 인덱싱하고 README.md를 자동 생성"""
     files = [
         f for f in os.listdir(folder)
         if f.endswith(".md") and f != "README.md"
@@ -34,14 +33,11 @@ def generate_index(folder):
             date = datetime.today().strftime("%Y-%m-%d")
             title = name.replace("_", " ")
 
-        # ✅ 루트에서는 그냥 파일명만 (./ 제거)
-        file_path = f"{f}"
-        rows.append(f"| {date} | {title} | [보기]({file_path}) |")
+        # ✅ URL 인코딩 (띄어쓰기/한글/괄호 대응)
+        encoded_name = quote(f)
+        rows.append(f"| {date} | {title} | [보기]({encoded_name}) |")
 
-    header = FOLDER_HEADER.get(
-        folder,
-        "# 🗂️ Study Logs\n> 자동 생성된 목록입니다."
-    )
+    header = FOLDER_HEADER.get(".", "# 🗂️ Study Logs\n> 자동 생성된 목록입니다.")
 
     readme_content = f"""{header}
 > 마지막 업데이트: {datetime.now().strftime("%Y-%m-%d")}
@@ -49,10 +45,10 @@ def generate_index(folder):
 {chr(10).join(rows)}
 """
 
-    with open(os.path.join(folder, "README.md"), "w", encoding="utf-8") as f:
-        f.write(readme_content)
+    with open(os.path.join(folder, "README.md"), "w", encoding="utf-8") as file:
+        file.write(readme_content)
 
-    print(f"✅ {folder or '.'}/README.md 갱신 완료 ({len(files)}개 파일)")
+    print(f"✅ {folder}/README.md 갱신 완료 ({len(files)}개 파일)")
 
 
 if __name__ == "__main__":
