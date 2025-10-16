@@ -43,7 +43,9 @@ def generate_index(folder):
             date = datetime.today().strftime("%Y-%m-%d")
             title = name.replace("_", " ")
 
-        rows.append(f"| {date} | {title} | [보기](./{f}) |")
+        # ✅ 상대경로 수정
+        file_path = os.path.join(folder, f).replace("\\", "/")
+        rows.append(f"| {date} | {title} | [보기]({file_path}) |")
 
     # 상단 설명문 가져오기
     header = FOLDER_HEADER.get(
