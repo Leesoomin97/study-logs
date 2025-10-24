@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2025-10-22
+> 마지막 업데이트: 2025-10-24
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2025-10-24 | PyTorch Lightning&Hydra Debugging | [보기](2025-10-24_PyTorch%20Lightning%26Hydra%20Debugging.md) |
 | 2025-10-22 | PyTorch Debugging | [보기](2025-10-22_PyTorch%20Debugging.md) |
 | 2025-10-21 | DNN,CNN,RNN의 비교와 활용 | [보기](2025-10-21_DNN%2CCNN%2CRNN%EC%9D%98%20%EB%B9%84%EA%B5%90%EC%99%80%20%ED%99%9C%EC%9A%A9.md) |
 | 2025-10-20 | 전이학습과 자기지도학습 | [보기](2025-10-20_%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5%EA%B3%BC%20%EC%9E%90%EA%B8%B0%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5.md) |
