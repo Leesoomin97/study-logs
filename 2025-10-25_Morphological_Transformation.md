@@ -1,4 +1,4 @@
-# Morphological Transformation — 이미지의 형태를 다루는 수학적 변환
+# Morphological Transformation 
 
 형태학적 변환(Morphological Transformation)은 **이미지의 구조적 형태(Shape)를 분석하고 수정하기 위한 영상 처리 기법**이다.  
 이 방법은 **수학적 형태학(Mathematical Morphology)** 에 기반하며,  
