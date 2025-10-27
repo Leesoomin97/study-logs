@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2025-10-26
+> 마지막 업데이트: 2025-10-27
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2025-10-27 | Edge and Contour Detection | [보기](2025-10-27_Edge_and_Contour_Detection.md) |
 | 2025-10-25 | Morphological Transformation | [보기](2025-10-25_Morphological_Transformation.md) |
 | 2025-10-24 | PyTorch Lightning&Hydra Debugging | [보기](2025-10-24_PyTorch%20Lightning%26Hydra%20Debugging.md) |
 | 2025-10-22 | PyTorch Debugging | [보기](2025-10-22_PyTorch%20Debugging.md) |
