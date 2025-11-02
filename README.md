@@ -2,11 +2,12 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2025-11-01
+> 마지막 업데이트: 2025-11-02
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
-| 2025-11-01 | 2025-11-1 Object Detection Basics | [보기](2025-11-1_Object_Detection_Basics.md) |
+| 2025-11-02 | 2025-11-2 Object Detection Model Evolution | [보기](2025-11-2_Object_Detection_Model_Evolution.md) |
+| 2025-11-02 | 2025-11-1 Object Detection Basics | [보기](2025-11-1_Object_Detection_Basics.md) |
 | 2025-10-29 | cnn model evolution | [보기](2025-10-29_cnn_model_evolution.md) |
 | 2025-10-28 | CNN basic concepts | [보기](2025-10-28_CNN_basic_concepts.md) |
 | 2025-10-27 | Edge and Contour Detection | [보기](2025-10-27_Edge_and_Contour_Detection.md) |
