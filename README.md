@@ -2,11 +2,12 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2025-11-10
+> 마지막 업데이트: 2025-11-13
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
 | 2025-11-09 | Detector Internal Structure | [보기](2025-11-09_Detector_Internal_Structure.md) |
+| 2025-11-05 | Segmentation Basics | [보기](2025-11-05_Segmentation_Basics.md) |
 | 2025-11-02 | Object Detection Model Evolution | [보기](2025-11-02_Object_Detection_Model_Evolution.md) |
 | 2025-11-01 | Object Detection Basics | [보기](2025-11-01_Object_Detection_Basics.md) |
 | 2025-10-29 | cnn model evolution | [보기](2025-10-29_cnn_model_evolution.md) |
