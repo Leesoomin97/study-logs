@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2025-12-16
+> 마지막 업데이트: 2025-12-19
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2025-12-19 | NLP Understanding | [보기](2025-12-19_NLP_Understanding.md) |
 | 2025-12-16 | After SegFormer tech | [보기](2025-12-16_After_SegFormer_tech.md) |
 | 2025-12-12 | SegFormer | [보기](2025-12-12_SegFormer.md) |
 | 2025-11-30 | Transformer Segmentation | [보기](2025-11-30_Transformer_Segmentation.md) |
