@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2025-12-21
+> 마지막 업데이트: 2025-12-23
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2025-12-23 | NLP Sequence Modeling | [보기](2025-12-23_NLP_Sequence_Modeling.md) |
 | 2025-12-21 | NLP text representation | [보기](2025-12-21_NLP_text_representation.md) |
 | 2025-12-20 | NLP tokenization | [보기](2025-12-20_NLP_tokenization.md) |
 | 2025-12-19 | NLP Understanding | [보기](2025-12-19_NLP_Understanding.md) |
