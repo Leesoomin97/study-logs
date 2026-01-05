@@ -6,7 +6,7 @@
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
-| 2026-01-05 | 2026 01 05 NLP BERT GPT comparison | [보기](2026_01_05_NLP_BERT_GPT_comparison.md) |
+| 2026-01-05 | NLP BERT GPT comparison | [보기](2026-01-05_NLP_BERT_GPT_comparison.md) |
 | 2026-01-05 | 2025 12 28 NLP Self-Attention-Process | [보기](2025_12_28_NLP_Self-Attention-Process.md) |
 | 2025-12-26 | NLP Attention Mechanism | [보기](2025-12-26_NLP_Attention_Mechanism.md) |
 | 2025-12-23 | NLP Sequence Modeling | [보기](2025-12-23_NLP_Sequence_Modeling.md) |
