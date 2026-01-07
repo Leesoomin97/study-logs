@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2026-01-06
+> 마지막 업데이트: 2026-01-07
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2026-01-07 | NLP Finetuning InContextLearning | [보기](2026-01-07_NLP_Finetuning_InContextLearning.md) |
 | 2026-01-05 | NLP BERT GPT comparison | [보기](2026-01-05_NLP_BERT_GPT_comparison.md) |
 | 2025-12-28 | NLP Self-Attention-Process | [보기](2025-12-28_NLP_Self-Attention-Process.md) |
 | 2025-12-26 | NLP Attention Mechanism | [보기](2025-12-26_NLP_Attention_Mechanism.md) |
