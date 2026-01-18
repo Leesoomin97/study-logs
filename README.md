@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2026-01-14
+> 마지막 업데이트: 2026-01-18
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2026-01-18 | NLP PPO DPO Role of Prompt Design | [보기](2026-01-18_NLP_PPO_DPO_Role_of_Prompt_Design.md) |
 | 2026-01-13 | NLP InsrtuctionTuning RLHF | [보기](2026-01-13_NLP_InsrtuctionTuning_RLHF.md) |
 | 2026-01-07 | NLP Finetuning InContextLearning | [보기](2026-01-07_NLP_Finetuning_InContextLearning.md) |
 | 2026-01-05 | NLP BERT GPT comparison | [보기](2026-01-05_NLP_BERT_GPT_comparison.md) |
