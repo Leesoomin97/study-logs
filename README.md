@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2026-02-06
+> 마지막 업데이트: 2026-02-09
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2026-02-09 | RAG Background | [보기](2026-02-09_RAG_Background.md) |
 | 2026-02-05 | LLM Evaluation Operations | [보기](2026-02-05_LLM_Evaluation_Operations.md) |
 | 2026-01-31 | LLM Hallucination | [보기](2026-01-31_LLM_Hallucination.md) |
 | 2026-01-28 | LLM System Design | [보기](2026-01-28_LLM_System_Design.md) |
