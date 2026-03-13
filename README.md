@@ -2,11 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2026-03-12
+> 마지막 업데이트: 2026-03-14
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
-| 2026-03-12 | RAG | [보기](2026-03-12_RAG.md) |
+| 2026-03-12 | RAG Reranking | [보기](2026-03-12_RAG_Reranking.md) |
 | 2026-03-06 | RAG System Evaluation | [보기](2026-03-06_RAG_System_Evaluation.md) |
 | 2026-03-02 | RAG Prompting and Faithfulness | [보기](2026-03-02_RAG_Prompting_and_Faithfulness.md) |
 | 2026-02-21 | RAG Failure type | [보기](2026-02-21_RAG_Failure_type.md) |
