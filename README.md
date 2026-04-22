@@ -2,10 +2,11 @@
 > 개인 학습 기록(TIL)과 기술 실험 노트들을 모아둔 공간입니다.
 > 실습 복기, 모델링 아이디어, 부트캠프 수업 회고 등을 Markdown 형태로 정리했습니다.
 
-> 마지막 업데이트: 2026-04-15
+> 마지막 업데이트: 2026-04-22
 
 | 날짜 | 제목 | 링크 |
 |------|------|------|
+| 2026-04-22 | RAG Chunk Selection&Ordering | [보기](2026-04-22_RAG_Chunk_Selection%26Ordering.md) |
 | 2026-04-14 | RAG Retrieval and Reranking | [보기](2026-04-14_RAG_Retrieval_and_Reranking.md) |
 | 2026-04-06 | RAG Hybrid Retrieval | [보기](2026-04-06_RAG_Hybrid_Retrieval.md) |
 | 2026-03-28 | RAG Query Rewriting and Query Optimization | [보기](2026-03-28_RAG_Query_Rewriting_and_Query_Optimization.md) |
